@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+#animal-photos{
+	background-color:#444444;
+	color:white;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	justify-content:center;
+}
+#animal-photos>div{
+	display:grid;
+	grid-template-columns:repeat(3,250px);
+	grid-template-rows:repeat(3,190px);
+	grid-gap:20px;
+}
+#animal-photos>div>img{
+	border-radius:10px;
+	overflow:hidden;
+}
